@@ -1,4 +1,5 @@
 ### The following code implements the LSTM Network on MNIST dataset in pytorch.
+### 3 layers, hidden dimension = 100
 
 
 import torch
