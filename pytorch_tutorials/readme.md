@@ -10,8 +10,8 @@ This folder contains pytorch tutorials. The basic structure and the ideas are re
 4. [Logistic Regression](4_logistic_regression_gpu.py) on MNIST dataset(GPU version).
 5. [Basic Neural Network](5_multilayer_perceptron_gpu.py) on MNIST dataset(GPU version).
 6. [Convolutional Neural Network](6_CNN_gpu.py) on MNIST dataset(GPU version).
-7. [Recurrent Neural Network] on MNIST dataset(GPU version).
-8. [LSTM Network] on MNIST dataset(GPU version).
+7. [Recurrent Neural Network](7_RNN_gpu.py) on MNIST dataset(GPU version).
+8. [LSTM Network](8_LSTM_gpu.py) on MNIST dataset(GPU version).
 
 
 **Model Saving and Loading:**
