@@ -1,4 +1,4 @@
-### The following code implements the linear regression on MNIST dataset in pytorch.
+### The following code implements the Convolutional Neural Network on MNIST dataset in pytorch.
 
 """
 Step 1: Load the data
