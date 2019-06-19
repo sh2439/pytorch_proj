@@ -1,6 +1,5 @@
 # Neural Style Transfer
 ---
-
 This notebook contains a typical machine learning/computer vision problem: **Neural Style Transfer**. With a content image (C) and a style image (S), we are able to generate a image (G) with C's content and S's style. The following images show how a photo can be combined with Van Gogh's painting and generate a new image.
 
 <img src="sea.jpg" alt="drawing" width="400"/>
