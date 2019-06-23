@@ -1,1 +1,3 @@
-This repo contains deep learning computer vision problems implemented in Pytorch.
+## Computer Vision
+---
+This repo contains deep learning computer vision problems implemented with Pytorch. 
