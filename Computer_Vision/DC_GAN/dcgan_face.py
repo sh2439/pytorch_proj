@@ -16,6 +16,7 @@ from tqdm.auto import tqdm
 
 data_root = '/home/sh2439/pytorch_tutorials/gender_detect/combined'
 ### Set hyperparameters
+# check torch device
 device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 # number of epochs
 num_epochs = 100
@@ -108,14 +109,14 @@ def main():
 
             if batch_idx % 500 == 0:
                 test_imgs = Gen(test_noise).cpu().detach()
-                print(test_imgs.size())
+#                 print(test_imgs.size())
                 show_grid(test_imgs)
     
     
 ### Helper functions
 
 class Dis_Net(nn.Module):
-    """
+    """ The discriminator net. The size of input should be n*3*64*64 tensor.
     """
     def __init__(self):
         super(Dis_Net, self).__init__()
@@ -162,7 +163,7 @@ class Dis_Net(nn.Module):
         return x
     
 class Gen_Net(nn.Module):
-    """
+    """ The generator net. The size of input should be n*100*1*1 tensor.
     """
     
     def __init__(self):
@@ -246,13 +247,15 @@ def init_weights(m):
         nn.init.constant_(m.bias.data, 0)
         
 def get_noise(size):
+    """ Generate random noise to feed into the generator. 
+    """
     n = torch.randn(size, 100, 1,1, device = device)
     
     return n
 
 
 def train_dis(model, optimizer, criterion ,real_data, fake_data):
-    """
+    """ Train the discriminator given the real and fake data.
     """
     # reset gradients
     optimizer.zero_grad()
@@ -277,7 +280,7 @@ def train_dis(model, optimizer, criterion ,real_data, fake_data):
     return loss_D, preds_real, preds_fake
 
 def train_gen(model, optimizer, criterion ,fake_data):
-    """
+    """ Train the generator given the fake data.
     """
     
     optimizer.zero_grad()
@@ -293,6 +296,7 @@ def train_gen(model, optimizer, criterion ,fake_data):
     optimizer.step()
     
     return loss_G, fake_preds_g
+
 
 if __name__ == '__main__':
     main()
