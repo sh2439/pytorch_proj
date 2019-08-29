@@ -25,7 +25,7 @@ The size of each image is `128*128*3` with color channels `RGB`. In the project,
 
 ### Content
 
-- [The step-by-step notebook](dcgan_ipynb.ipynb)
+- [The step-by-step notebook](dcgan_face.ipynb)
 
 - [Python script](dcgan_face.py)
 
