@@ -27,6 +27,16 @@ Preview dataset:
 
 Usage: `python emoji_script.py`
 
+## Dependencies
+- numpy
+- pytorch
+- pandas
+- tqdm
+- emoji
+
 ## Result
 Training accuracy: 100%
 Test accuracy: 91.07%
+
+
+<img src="example.png" alt="drawing" width="600"/>

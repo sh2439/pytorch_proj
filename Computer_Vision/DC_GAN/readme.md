@@ -32,7 +32,7 @@ The size of each image is `128*128*3` with color channels `RGB`. In the project,
   Usage: `python dcgan_face.py`
 
 
-### Dependeicies 
+### Dependencies 
 - numpy
 - pytorch
 - torchvision
