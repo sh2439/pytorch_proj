@@ -39,4 +39,4 @@ Training accuracy: 100%
 Test accuracy: 91.07%
 
 
-<img src="example.png" alt="drawing" width="300"/>
+<img src="example.png" alt="drawing" width="600"/>
