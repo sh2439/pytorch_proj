@@ -21,7 +21,7 @@ Preview dataset:
 - food is life 🍴
 
 ## Content
-- [Step-by-step notebook: emoji_pytorch.ipynb](emoji_pytorch.ipynb)
+- [Step-by-step notebook: emoji_pytorch.ipynb](Emoji_pytorch.ipynb)
 
 - [Python script: emoji_script.py](emoji_script.py) 
 
