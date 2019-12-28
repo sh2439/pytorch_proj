@@ -24,7 +24,7 @@ The dataset can be downloaded from [Face Image Project](https://talhassner.githu
 The size of each image is `128*128*3` with color channels `RGB`. 
 
 <center>Example image:</center>  
-<img src="image_folder/landmark_aligned_face.205.9615551622_19818245ec_o.jpg" alt="drawing" width="300"/>
+<center><img src="image_folder/landmark_aligned_face.205.9615551622_19818245ec_o.jpg" alt="drawing" width="300"/></center>
 
 ### Dependencies
 - numpy
